@@ -1,0 +1,233 @@
+@media only screen and (max-width:1000px){
+    .skills-main{
+        display: grid;
+        gap: 30px;
+    }
+    .SkillsSection p{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .videodivforworks{
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .contact-main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        column-gap: 10px;
+    }
+    .contact-left h2,.contact-left p{
+        text-align: center;
+    }
+    .contact-left p{
+        padding: 0px;
+        font-size: 17px;
+    }
+    .contact-left{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .contact-left h2{
+        text-align: center;
+        padding: 0px;
+    }
+    .contact-right form{
+        box-shadow: 0px 1px 0px 3px #dedede;
+    }
+    /* .contact-right{
+        padding: 10px !important;
+    } */
+    .contact-right{
+        padding: 0px !important;
+    }
+    .mobile{
+        z-index: 1;
+    }
+    .backtotop{
+        z-index: 1 !important;
+    }
+}
+
+@media only screen and (max-width:734px){
+    .homeSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-left img{
+        position: absolute;
+    }
+    .home-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        padding-left: 0px;
+        gap: 30px;
+        position: relative;
+        padding-top: 460px;
+    }
+    .home-right h1,.home-right p,.home-right a{
+        padding: 0px;
+    }
+    .home-right a{
+        scale: 0.9;
+    }
+    /*about*/
+    .AboutMeSection{
+        padding-top: 30px;
+    }
+    .about-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-left{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        z-index: 2;
+        height: 502px;
+        padding: 0px;
+    }
+    .about-left p,.about-left h1,.about-left .sirappu{
+        padding: 0;
+    }
+    .about-left p{
+        padding-left:7px;
+        padding-right: 7px;
+    }
+    .about-right{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        z-index: 1;
+    }
+    .about-right img{
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    .sirappu{
+        scale: 0.9;
+    }
+}
+
+@media only screen and (max-width:625px){
+    .footer-section{
+        display: flex;
+        gap: 50px;
+    }
+    .final-leftcontent{
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        padding: 0px;
+    }
+}
+@media only screen and (max-width:590px){
+    .final-rightcontent p{
+        font-size: 16px;
+    }
+    .resumeContainer p{
+        text-align: center;
+    }
+    .SkillsSection p{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:560px){
+    .skills-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .smallBox1,.smallBox2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        column-gap: 150px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .contact-left{
+        padding: 5px;
+    }
+    .about-left{
+        height: 400px;
+    }
+    .about-right img{
+        height: 400px;
+    }
+    .addressdiv{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width:530px){
+    .home-right{
+        padding-top: 300px;
+    }
+    .final-rightcontent{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:435px){
+    .SkillsSection{
+        padding-top: 21px;
+    }
+    .about-main{
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .aboutHeading{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:419px){
+    input{
+        font-size: 16px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width:390px){
+    .home-right a{
+        scale: 0.8;
+    }
+    .sirappu{
+        scale: 0.8;
+    }
+}
+
+@media only screen and (max-width:370px){
+    .smallBox1,.smallBox2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 100px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .animate-button2:hover span {
+        transform: translateX(4em);
+    } 
+    .footer-section{
+        margin-top: 8px;
+    }
+    .contact-right form{
+        box-shadow: 0px 1px 0px 3px #dedede;
+    }
+}
